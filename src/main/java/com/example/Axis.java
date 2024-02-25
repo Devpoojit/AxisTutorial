@@ -22,7 +22,9 @@ public class Axis {
     public Axis(String name, int age, int accNo, String IFSC) {
         this.name = name;
         this.age = age;
+        // TODO: Generate a random and unique account number.
         this.accNo = accNo;
+        // TODO: IFSC is same for all the accounts of the same bank. Hard code it.
         this.IFSC = IFSC;
     }
 
@@ -61,9 +63,4 @@ public class Axis {
         this.IFSC = IFSC;
     }
 
-
-    @Override
-    public String toString() {
-        return "Axis [IFSC=" + IFSC + ", accNo=" + accNo + ", age=" + age + ", name=" + name + "]";
-    }
 }

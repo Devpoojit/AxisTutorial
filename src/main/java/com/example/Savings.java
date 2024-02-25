@@ -34,6 +34,30 @@ public class Savings extends Axis{
         this.interest = interest;
     }
 
+    /**
+     * 
+     * @param amount
+     * @return
+     * This method is used to deposit the amount in the account.
+     * Return the updated balance.
+     */
+    public int deposit(int amount) {
+        // TODO: implement
+        return 0;
+    }
+
+    /**
+     * 
+     * @param amount
+     * @return
+     * This method is used to withdraw the amount from the account.
+     * Return the updated balance.
+     */
+    public int withdraw(int amount) {
+        // TODO: implement
+        return 0;
+    }
+
     // Getter Methods
 
     public int getAccBal() {
